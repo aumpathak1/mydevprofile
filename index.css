@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,300&display=swap");
+
+:root{
+    --primary-color: red;
+    --secondary-color: pink;
+
+}
+body{
+    font-family: 'Roboto',sans-serif;
+}
+
+.container{
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.container-center{
+    margin: auto;
+    max-width: 600px;
+}
+
+.primary-link{
+    color: var(--primary-color) ;
+}
+
+.secondary-link{
+ color: var(--secondary-color) ;
+}
