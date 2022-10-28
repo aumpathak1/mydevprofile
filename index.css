@@ -23,17 +23,33 @@ hr{
     max-width: 600px;
 }
 
-.primary-link{
-    color: var(--secondary-color) ;
-    background-color: var(--primary-color);
-    text-decoration: none;
+.link{
     padding: 3px 0.5rem;
-    border-radius: 0.5rem;
+    text-decoration: none;
+    
+}
 
+.primary-link{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
 }
 
 .secondary-link{
- color: var(--primary-color) ;
- text-decoration: none;
- padding: 0rem 0.5rem;
+    border-color: var(--primary-color);
+    border-style: solid;
+    border-radius: 0.5rem;
+}
+
+.list-nobullets{
+list-style-type: none;
+}
+
+.list-inline{
+    display: inline;
+    padding: 0px 5px;
+}
+
+.list-nobullets .firstelement{
+    margin-left: 150px;
 }
